@@ -1,0 +1,12 @@
+{
+  "name": "day1-problem2-countingtop3calories",
+  "version": "1.0.0",
+  "description": "AdventOfCode 2022 Day1 Problem 2",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Nikhil Kolhe",
+  "license": "ISC"
+}
