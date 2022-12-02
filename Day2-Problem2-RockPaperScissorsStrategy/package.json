@@ -1,0 +1,12 @@
+{
+  "name": "day2-problem2-rockpaperscissorsstrategy",
+  "version": "1.0.0",
+  "description": "Advent Of Code Day2 Problem2 RockPaperScissorsStrategy",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Nikhil Kolhe",
+  "license": "ISC"
+}
