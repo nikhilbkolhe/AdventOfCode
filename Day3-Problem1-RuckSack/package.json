@@ -1,0 +1,12 @@
+{
+  "name": "day3-problem1-rucksack",
+  "version": "1.0.0",
+  "description": "Advent Of Code Day 3 rucksack sorting ",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Nikhil Kolhe",
+  "license": "ISC"
+}
