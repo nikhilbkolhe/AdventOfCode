@@ -5,10 +5,10 @@ const fileHandle = await open('input.txt');
 //variable to hold a count.
 let count = 0;
 
-//if lb < lb and ub < ub or lb > lb and ub > ub then the 
-//ranges are definitely non encompassing.
+//if ub2 > lb1 and lb2 > ub1 then the 
+//ranges are definitely non overlapping.
 const isEncompassing = (lb1,ub1,lb2,ub2) => {
-    if((lb1 < lb2 && ub1 < ub2) || (lb1 > lb2 && ub1 > ub2))
+    if(ub2 < lb1 || lb2 > ub1)
         return false;
     else
         return true;
