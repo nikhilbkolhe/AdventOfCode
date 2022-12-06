@@ -1,0 +1,12 @@
+{
+  "name": "day6-problem2-tuningformessage",
+  "version": "1.0.0",
+  "description": "Advent Of Code Day 6 Problem 2 Tuning For Message",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Nikhil Kolhe",
+  "license": "ISC"
+}
