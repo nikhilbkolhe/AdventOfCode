@@ -8,8 +8,8 @@ function findStartOfPacket(ipstring){
     for (let i = 0; i < ipstring.length ; i++){
         //take next thirteen characters and current in a set
         let set = new Set(ipstring.substring(i,i+14));
-        //if size of set is 14 means current 14 characters of string are all different
-        // which is start of packet
+        //if size of set is 14 means current 14 characters of string are all unique
+        // which is start of message
         if (set.size === 14){
             return i+13+1;
         }
